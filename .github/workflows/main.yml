@@ -31,10 +31,9 @@ jobs:
           node-version: 16
 
       # Build
-      - name: npm install and build
+      - name: yarn install and build
         run: |
-          npm install
-          npm run build
+          yarn install
         env:
           CI: true
        
